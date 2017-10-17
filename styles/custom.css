@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+.heroimage {
+	background:url(../images/hero-home.jpg) no-repeat;
+	background-size:cover;
+	width:100%;
+	height:500px;
+}
+.navbar-inverse {
+    background-color: inherit!important;
+    border: 0!important;
+}
+.navbar-brand {
+	padding: 10px 15px!important;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #2D292A!important;
+	font-weight:bold;
+}
+
+/* services */
+
+.services {
+	background:#2D292A;
+}
+.services h2 {
+	color:#fff;
+    font-size: 30px;
+	margin:15px 0 0;
+}
+.whiteClr {
+	color:#fff!important;
+}
+.services h3 {
+	color:#7BB334;
+	font-size: 20px!important;
+}
+
+.casestudy {
+	background:#fff;
+	padding-bottom:10px;
+}
+.casestudy h3 {
+	font-size: 20px!important;
+}
+.blackClr {
+	color:#333!important;
+}
+
+.footer {
+	background:url(../images/footer-bg.png) repeat-x;
+	padding-bottom:10px;
+}
+.padT20 {padding-top:20px!important;}
+.padB10 {padding-bottom:10px!important;}
+
+.footer h3 {
+	font-size: 18px!important;
+}
+.footer ul {
+	margin:0;
+	padding:0;
+}
+.footer li {
+	list-style:none;
+}
+.footer li a{
+	color: #555!important;
+	line-height: 21px;
+}
+.footercopy {
+	padding-top:10px;
+	border-top:1px solid #DDDDDD;	
+}
+
+@media only screen and (max-width:767px) {
+	.navbar-collapse {
+		background: #2D292A;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+		color: #fff!important;
+	}
+}

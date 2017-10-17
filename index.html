@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verticurl</title>
+<link href="styles/custom.css" rel="stylesheet">
+<link href="styles/bootstrap.css" rel="stylesheet">
+
+  <!-- TODO add manifest here -->
+  <link rel="manifest" href="manifest.json">
+  <!-- Add to home screen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Weather PWA">
+  <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
+  <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#2F3BA2">
+	
+ <script>
+				if ('serviceWorker' in navigator) {
+					navigator.serviceWorker.register('service-worker.js');
+				}
+			</script>
+ 
+</head>
+<body>
+
+ <div class="heroimage">
+        <nav class="navbar navbar-inverse">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"><img src="images/verticurl-logo.png" alt="verticurl"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://www.verticurl.com/about-us/our-clients" target="_blank">About Us</a></li>
+                    <li><a href="https://www.verticurl.com/need-more-information" target="_blank">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+        </nav>
+</div>
+
+<div class="services">
+	<div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>What We Do</h2>
+            </div>
+        </div>
+        <div class="row whiteClr">
+        	<div class="col-lg-4">
+            	<h3>Demand Generation</h3>
+                <p>Our consultants are focused on improving your lead generation activities. We will help you to generate and direct quality leads to your salesforce, making continuous testing and efficiency critical to your success.</p>
+            </div>
+            <div class="col-lg-4">
+            	<h3>Marketing Automation</h3>
+                <p>Our Marketing Automation services ensure that not only you have the right technology solution in place but also get the maximum value out of it in terms of contribution to your sales pipeline.</p>
+            </div>
+            <div class="col-lg-4">
+            	<h3>Strategy & Consulting</h3>
+                <p>We assist in devising a campaign strategy through market research and analysis, making recommendations on the best approach to meeting your demand generation objectives.</p>
+            </div>
+        </div>
+        <div class="row whiteClr">
+        	<div class="col-lg-4">
+            	<h3>Demand Center</h3>
+                <p>You can demand more from your marketing and drive systematic, predictable growth with our Verticurl's Demand Center Services.</p>
+            </div>
+            <div class="col-lg-4">
+            	<h3>Telemarketing</h3>
+                <p>Verticurl's telemarketing and research services assist in acquiring and qualification of leads, building targeted lists or enriching your existing data.</p>
+            </div>
+            <div class="col-lg-4">
+            	<h3>Data Services</h3>
+                <p>Data is the heart of marketing. We can help get your data in shape for effective marketing. Be it a simple cleansing or advanced modeling, our data strategists are ready to help.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="casestudy">
+	<div class="container">
+    	<div class="row blackClr">
+        	<div class="col-lg-4">
+            	<h3>Case Study</h3>
+                <p>‘8 Mistakes to Avoid When Building a Demand Center’</p>
+            </div>
+            <div class="col-lg-4">
+            	<h3>Knowledge Center</h3>
+                <p>We've compiled useful and valuable resources that can help your company make the right marketing decisions and get you up to speed on what's shaping our industry.</p>
+            </div>
+            <div class="col-lg-4">
+            	<h3>Data Services</h3>
+                <p>Maximizing your marketing outcomes by using the right approach and tools.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+	<div class="container">
+    	<div class="row blackClr">
+        	<div class="col-lg-3 padT20">
+            	<img src="images/verticurl-logo-footer.png" alt="vert">
+            </div>
+            <div class="col-lg-3 padB10">
+            	<h3>Services</h3>
+                <ul>
+                    <li><a href="/services/demand-generation">Demand Generation</a></li>
+                    <li><a href="/services/marketing-automation">Marketing Automation</a></li>
+                    <li><a href="/services/crm">CRM</a></li>
+                    <li><a href="/services/demand-center">Demand Center</a></li>
+                    <li><a href="/services/strategy-consulting">Strategy &amp; Consulting</a></li>
+                    <li><a href="/services/telemarketing">Telemarketing</a></li>
+                    <li><a href="/services/data-services">Data Services</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+            	<h3>About Us</h3>
+                <ul>
+                    <li><a href="/about-us/our-clients">Our Clients</a></li>
+                    <li><a href="/about-us/team-profile">Team Profiles</a></li>
+                    <li><a href="/need-more-information">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+            	<h3>How We Can Help You</h3>
+                <ul>
+                    <li><a href="/services/demand-generation">More Solid Leads</a></li>
+                    <li><a href="/services/demand-generation">Increased Revenue</a></li>
+                    <li><a href="/services/strategy-consulting">Improved Marketing ROI</a></li>
+                    <li><a href="/services/demand-generation">Effective Marketing automation</a></li>
+                    <li><a href="/services/demand-center">Upskilled Staff</a></li>
+                    <li><a href="/services/demand-center">Expanded Global Reach</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<div class="footercopy text-center">
+	<div class="container"><div class="row"><div class="col-lg-12">© Verticurl LLC</div></div></div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+
+  <!-- Uncomment the line below when ready to test with fake data -->
+  <!--<script src="scripts/app.js" async></script>-->
+
+</body>
+</html>
