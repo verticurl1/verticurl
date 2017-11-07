@@ -18,7 +18,8 @@ self.addEventListener('install', function(event) {
   'images/footer-bg.png',
   'images/hero-home.jpg',
   'images/verticurl-logo.png',
-  'images/verticurl-logo-footer.png'
+  'images/verticurl-logo-footer.png',
+'notification-examples.js'				
 			]); // Computed at build time.
 		})
 	);
